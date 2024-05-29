@@ -1,0 +1,29 @@
+:root{
+    --theme:orange;
+    /* #1D84AD; */
+}
+.navBar{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+}
+.nav-item{
+    padding: 1rem 1.5rem;
+}
+.nav-item a{
+    color: var(--theme);
+    text-decoration: none;
+}
+.nav-item a::after{
+    content: "";
+    display: block;
+    border-radius: 2rem;
+    height: 2px;
+    width: 0%;
+    background: var(--theme);
+    transition: width 0.29s ;
+}
+
+.nav-item a:hover::after{
+    width:100%;
+}
