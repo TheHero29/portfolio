@@ -5,7 +5,7 @@
 .navBar{
     display: flex;
     list-style: none;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 .nav-item{
     padding: 1rem 1.5rem;

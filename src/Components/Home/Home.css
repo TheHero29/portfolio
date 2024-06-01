@@ -1,0 +1,58 @@
+.body{
+    padding: 0;
+}
+
+h1{
+    font-size:2.4rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+.about-me{
+    display: flex;
+    height: 95%;
+    width: 100%;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img,.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height:100%;
+    max-width:50%;
+}
+img{
+    scale:0.9;
+    width:80%;
+}
+
+.icons{
+    border-radius: 30%;
+    background-color: blanchedalmond;
+    padding:0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.5rem;
+    color:#282c34;
+}
+.icons:hover{
+    scale:1.1;
+    transition: 300ms ease;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 1.6rem;
+}

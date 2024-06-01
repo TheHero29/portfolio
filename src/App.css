@@ -1,16 +1,25 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-header {
   background-color: #282c34;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   font-size: 1.2rem;
   color: white;
+  padding: 0.5rem 2rem;
 }
-
+.App-footer{
+  padding: 0.2rem;
+  background-color: #282c34;
+  color: aliceblue;
+  font-size: small;
+}
 .App-link {
   color: #61dafb;
 }
+
+
 
