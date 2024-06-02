@@ -4,10 +4,13 @@ import coding_img2 from '../../assets/coding_img2.svg'
 import thinking_img from '../../assets/undraw_code_thinking_re_gka2.svg'
 import coding_img3 from '../../assets/undraw_firmware_re_fgdy.svg'
 import { FaInstagram, FaGithub, FaLinkedin, FaXTwitter} from 'react-icons/fa6';
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 function Home(){
     return (
         <div>
+            <Header />
             <div class="about-me">
                 <div class="text">
                     <div className='intro'>
@@ -19,16 +22,16 @@ function Home(){
                     <p>I like computers</p>
                     </div>
                     <div className='icons-container' target="_blank">
-                    <a href="https://www.instagram.com">
+                    <a href="https://www.instagram.com/loukik1729?igsh=MWo4YnpvMWZ2YzAOZA==" target='_blank'>
                         <FaInstagram className='icons'/>
                     </a>
-                    <a href="https://www.github.com" target="_blank">
+                    <a href="https://www.github.com/TheHero29" target="_blank">
                         <FaGithub  className='icons'/>
                     </a>
                     <a href="https://www.linkedin.com" target="_blank">
                         <FaLinkedin className='icons'/>
                     </a>
-                    <a href="https://www.twitter.com" target="_blank">
+                    <a href="https://www.x.com/Vichar_Manthan_" target="_blank">
                         <FaXTwitter className='icons' />
                     </a>
                     </div>
@@ -40,7 +43,7 @@ function Home(){
                 </div>
             </div>
             <div class="what-I-do">
-                <h1>What I do?</h1>
+                <h1 class="heading">What I do?</h1>
                 <div className="dsa card">
                     <div className='img'>
                         <div className='img-container'>
@@ -87,6 +90,7 @@ function Home(){
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

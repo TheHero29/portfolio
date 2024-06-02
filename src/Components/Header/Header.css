@@ -1,0 +1,11 @@
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 2rem;
+  }
+  .body{
+    text-align: center;
+  }
