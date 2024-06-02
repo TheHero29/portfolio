@@ -6,8 +6,11 @@ function NavBar(){
         <ul className="navBar">
             <li className='nav-item'><Link to="/">Home</Link></li>
             <li className='nav-item'><Link to="/skills">Skills</Link></li>
-            <li className='nav-item'><Link to="">Projects</Link></li>
-            <li className='nav-item'><Link to="">Contact Me</Link></li>
+            <li className='nav-item'><Link to="/projects">Projects</Link></li>
+            <li className='nav-item'>
+                {/* <Link to="">My Resume</Link> */}
+                <a href="">Resume</a>
+            </li>
         </ul>
     </nav>
     )

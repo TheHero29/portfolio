@@ -6,8 +6,10 @@ import coding_img3 from '../../assets/undraw_firmware_re_fgdy.svg'
 import { FaInstagram, FaGithub, FaLinkedin, FaXTwitter} from 'react-icons/fa6';
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import TypingEffect from '../TypingEffect/TypingEffect'
 
 function Home(){
+    const texts = ['MERN stack developer','UI/UX designer','Guitar player'];
     return (
         <div>
             <Header />
@@ -18,6 +20,7 @@ function Home(){
                         Hello All! I am Loukik
                     </h1>
                     </div>
+                    <TypingEffect texts= {texts}/>
                     <div>
                     <p>I like computers</p>
                     </div>

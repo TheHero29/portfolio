@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './Components/Home/Home';
+import Projects from './Components/Projects/Projects';
 import NavBar from './Components/NavBar/NavBar';
 import React from 'react';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
@@ -30,8 +31,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/skills" element={<Skills/>} />
-          {/* <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={ContactMe} /> */}
+          <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/contact" component={ContactMe} /> */}
           </Routes>
       </div>
     </Router>

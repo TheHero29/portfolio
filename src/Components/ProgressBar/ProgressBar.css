@@ -1,0 +1,5 @@
+.progress-bar{
+    text-align: center;
+    background-color: orange;
+    transition: width 1s ease-in;
+}

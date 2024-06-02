@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import './TypingEffect.css'
 
 export default function Typing({texts,typingSpeed = 100,deletingSpeed = 50,duration=100}){
     let [string,setString] = useState('');
@@ -35,8 +36,9 @@ export default function Typing({texts,typingSpeed = 100,deletingSpeed = 50,durat
     },[string,isDeleting,index])
     return(
         <div className="typing-effect">
-            {string}
+            <h3>{string}
             <span className="carat">|</span>
+            </h3>
         </div>
     )
 }
