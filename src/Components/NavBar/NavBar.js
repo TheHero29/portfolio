@@ -9,7 +9,7 @@ function NavBar(){
             <li className='nav-item'><Link to="/projects">Projects</Link></li>
             <li className='nav-item'>
                 {/* <Link to="">My Resume</Link> */}
-                <a href="">Resume</a>
+                <a href="https://docs.google.com/document/d/1ZeV8FOD0aDxv5zwpD6mRVJerDtAQ2M0pZXe0KGQFK-w/edit?usp=sharing" target='_blank'>Resume</a>
             </li>
         </ul>
     </nav>

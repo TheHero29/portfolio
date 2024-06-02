@@ -7,7 +7,9 @@ function Skills(){
     return (
         <div>
             <Header />
+            <div className="skills-main-container">
             <h1>Comming soon...</h1>
+            </div>
             <Footer />
         </div>
     );
