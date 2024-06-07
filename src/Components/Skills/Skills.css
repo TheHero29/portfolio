@@ -2,8 +2,14 @@ body{
     text-align: center;
 }
 .skills-main-container{
-    height: 82vh;
-    display:flex;
+    /* height: 76vh; */
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    padding:2rem;
+    grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
+    gap: 2rem;
 }
 .scard{
     /* padding:1.3rem ; */
@@ -31,4 +37,8 @@ body{
 .scard:hover{
     background-color: rgb(248, 196, 99);
     transform: scale(1.1);
+}
+Footer{
+    /* bottom: 0%; */
+    margin-top: 24vh;
 }
