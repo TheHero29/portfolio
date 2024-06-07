@@ -13,13 +13,13 @@ function Skills(){
             <h1>Skills</h1>
             <div className="skills-main-container">
             
-                    <div class="card"><div class="iconContainer"><FaJava class="icon" size={50} /></div></div>
-                    <div class="card"><div class="iconContainer"><DiMysql class="icon" size={50} /></div></div>
-                    <div class="card"><div class="iconContainer"><FaPython class="icon" size={50} /></div></div>
-                    <div class="card"><div class="iconContainer"><FaHtml5 class="icon" size={50} /></div></div>
-                    <div class="card"><div class="iconContainer"><FaCss3 class="icon" size={50} /></div></div>
-                    <div class="card"><div class="iconContainer"><FaJs class="icon" size={50} /></div></div>
-                    <div class="card"><div class="iconContainer"><FaReact class="icon" size={50} /></div></div>
+                    <div class="scard"><div class="iconContainer"><FaJava className="sicon" size={50} /></div></div>
+                    <div class="scard"><div class="iconContainer"><DiMysql className="sicon" size={50} /></div></div>
+                    <div class="scard"><div class="iconContainer"><FaPython className="sicon" size={50} /></div></div>
+                    <div class="scard"><div class="iconContainer"><FaHtml5 className="sicon" size={50} /></div></div>
+                    <div class="scard"><div class="iconContainer"><FaCss3 className="sicon" size={50} /></div></div>
+                    <div class="scard"><div class="iconContainer"><FaJs className="sicon" size={50} /></div></div>
+                    <div class="scard"><div class="iconContainer"><FaReact className="sicon" size={50} /></div></div>
             </div>
             <Footer />
         </div>

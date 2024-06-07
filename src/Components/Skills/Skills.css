@@ -5,23 +5,30 @@ body{
     height: 82vh;
     display:flex;
 }
-.card{
-    padding:1.3rem ;
-    height:5rem;
-    width:5rem;
+.scard{
+    /* padding:1.3rem ; */
+    height:10rem;
+    width:10rem;
     background-color: antiquewhite;
     border-radius: 10%;
     scale: 1;
+    margin:2rem;
     transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .iconContainer{
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     /* border: 1px solid red; */
 }
-.icon{
-    scale:1.4;
+.sicon{
+    scale:1.7;
 }
-.card:hover{
+.scard:hover{
     background-color: rgb(248, 196, 99);
     transform: scale(1.1);
 }
